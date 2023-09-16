@@ -7,33 +7,42 @@
     <title>Meme Slider</title>
   </head>
   <body>
-    <div class="slider">
-      <div class="slider_background">
-        <div class="pictures">
-          <img src="images/meme_1.jpg" alt="meme_1" />
-          <img src="images/meme_2.jpg" alt="meme_2" />
-          <img src="images/meme_3.jpg" alt="meme_3" />
-          <img src="images/meme_4.jpg" alt="meme_4" />
-        </div>
-        <div class="texts">
-          <p>
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide">
+          <img src="images/meme_1.jpg" alt="Image 1" />
+          <p class="slide-text">
             The weekend offers a refreshing break from a rather hectic week. But
             heck, Monday is always around the corner!
           </p>
-          <p>
+        </div>
+        <div class="slide">
+          <img src="images/meme_2.jpg" alt="Image 2" />
+          <p class="slide-text">
             Teacher: The test isn't that difficult <br />
             The test: Who is this?
           </p>
-          <p>
+        </div>
+        <div class="slide">
+          <img src="images/meme_3.jpg" alt="Image 3" />
+          <p class="slide-text">
             It's just a funny meme. So, continue scrolling through our funny
             text memes the whole day.
           </p>
-          <p>
+        </div>
+        <div class="slide">
+          <img src="images/meme_4.jpg" alt="Image 4" />
+          <p class="slide-text">
             Fruits and vegetables are healthy foods. But you simply can't resist
             the pizza temptation, can you?
           </p>
         </div>
-        <div class="slider_buttons"></div>
+      </div>
+      <div class="pagination">
+        <div class="pagination-dot"></div>
+        <div class="pagination-dot"></div>
+        <div class="pagination-dot"></div>
+        <div class="pagination-dot"></div>
       </div>
     </div>
     <script src="script.js"></script>
