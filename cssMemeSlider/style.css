@@ -50,3 +50,50 @@ input[type="radio"] {
   width: 100%;
   height: auto;
 }
+
+.slider-text {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 100%;
+}
+
+.slider-bottom {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-bottom-text {
+  display: flex;
+  width: 100%;
+  transition: transform 0.7s;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 2.3em;
+  height: 2.3em;
+}
+
+.slider-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
